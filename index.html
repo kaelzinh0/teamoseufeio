@@ -21,16 +21,66 @@
       </iframe>
     </div>
 
-    <div class="imagem">
-      <img src="foto.jpg" alt="Nossa foto" />
-    </div>
+    <div class="carousel">
+  <div class="carousel-images">
+    <img src="img/foto1.jpeg" alt="Foto 1">
+    <img src="img/foto2.jpeg" alt="Foto 2">
+    <img src="img/foto3.jpeg" alt="Foto 3">
+    <img src="img/foto4.jpeg" alt="Foto 4">
+    <img src="img/foto5.jpeg" alt="Foto 5">
+    <img src="img/foto6.jpeg" alt="Foto 6">
+    <img src="img/foto7.jpeg" alt="Foto 7">
+    <img src="img/foto8.jpeg" alt="Foto 8">
+    <img src="img/foto9.jpeg" alt="Foto 9">
+    <img src="img/foto10.jpeg" alt="Foto 10">
+  </div>
+</div>
+
+<style>
+.carousel {
+  max-width: 600px;
+  margin: 40px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.carousel-images {
+  display: flex;
+  width: max-content;
+  animation: slide 40s infinite ease-in-out;
+}
+
+.carousel-images img {
+  width: 600px;
+  height: auto;
+  flex-shrink: 0;
+  transition: transform 0.5s ease;
+}
+
+@keyframes slide {
+  0%   { transform: translateX(0); }
+  10%  { transform: translateX(0); }
+  20%  { transform: translateX(-600px); }
+  30%  { transform: translateX(-600px); }
+  40%  { transform: translateX(-1200px); }
+  50%  { transform: translateX(-1200px); }
+  60%  { transform: translateX(-1800px); }
+  70%  { transform: translateX(-1800px); }
+  80%  { transform: translateX(-2400px); }
+  90%  { transform: translateX(-2400px); }
+  100% { transform: translateX(0); }
+}
+</style>
+
 
     <div class="texto">
       <p>
-        Queria começar agradecendo por todos os momentos que vivemos até aqui...
-        Estamos “juntos” desde o instante em que nossos olhos se cruzaram...
-        Me perdi nos teus olhos...
-        Com você, até o caos tem cor. Com você, até o silêncio fala.
+        Queria começar agradecendo por todos os momentos que vivemos até aqui. Estamos “juntos” desde o instante em que nossos olhos se cruzaram. Tudo aconteceu tão rápido... A conexão foi imediata, como se o universo tivesse dado um empurrão, como se nossas almas já se reconhecessem de antes.
+Em poucos dias, eu já sabia: era você. Em um piscar de olhos, me vi apaixonado. Em outro, já estava te amando — amando o seu jeito leve de falar com o mundo, o seu beijo que tem gosto de lar, o seu corpo que se encaixa no meu como verso e melodia. Me perdi nos teus olhos, que são abrigo, e me derreto toda vez que vejo esse sorriso tão seu, tão perfeito, que faz meu peito se desmanchar como letra de Chico Buarque em dia de saudade.
+Sei que não somos perfeitos — ninguém é. Cada um de nós carrega seus defeitos, suas dores, seus silêncios. Mas acredito que, com carinho, paciência e maturidade (mesmo quando ela teima em faltar), podemos construir algo bonito. Algo que não precise de promessas impossíveis, mas que se firme nos gestos pequenos, nos olhares sinceros, nas escolhas diárias de continuar juntos.
+Quero viver a vida com você. Imagino nossas viagens, nossos cafés da manhã com preguiça de domingo, nosso apartamento com planta torta e parede com fotos nossas. Imagino nossos filhos — com seus olhos ou os meus, mas sempre com o seu riso. Quero enfrentar as tempestades contigo, e dançar na chuva se for preciso. E quero também saborear todos os dias de sol, porque ao teu lado até a rotina vira poesia.
+Sei que não vai ser fácil — já não está sendo. A vida adulta pesa: faculdade, trabalho, contas, pressa. Mas sinto que, com você aqui, tudo fica mais leve. Com você, até o caos tem cor. Com você, até o silêncio fala.
       </p>
     </div>
   </div>
